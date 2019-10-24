@@ -1,0 +1,24 @@
+#video_background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    /* width: auto;
+    height: auto; */
+    z-index: 1;
+    overflow: hidden;
+    /* background-image: url('../images/video_bg.png');
+    background-position: center center;
+    background-size: cover; */
+
+}
+
+
+@media (max-width:768px){
+
+    #video_background{
+        display: none;
+    }
+
+}
