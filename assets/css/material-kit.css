@@ -411,6 +411,7 @@ template {
   }
   .container {
     min-width: 992px !important;
+
   }
   .navbar {
     display: none;
@@ -5563,7 +5564,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 2;
   background-color: #000000;
 }
 
