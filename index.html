@@ -56,7 +56,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="#ContactUs">
               Contact Us
             </a>
           </li>
@@ -223,9 +223,20 @@
         </div>
       </div>
       <div class="section section-contacts">
+        <form action="mailto:bobzhangshao@hotmail.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name"><br>
+          E-mail:<br>
+          <input type="text" name="mail"><br>
+          Comment:<br>
+          <input type="text" name="comment" size="50"><br><br>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+        </form>
+
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="text-center title">Contact Us</h2>
+            <h2 id="ContactUs" class="text-center title">Contact Us</h2>
             <h4 class="text-center description">Divide details about your product or agency work into parts. Write a few
               lines about each one and contact us about any further collaboration. We will responde get back to you in a
               couple of hours.</h4>
